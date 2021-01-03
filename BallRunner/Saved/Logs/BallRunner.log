@@ -1391,3 +1391,624 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.03-09.46.59:815][718]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn5868318E40264207760000A0FAF225EC.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
 [2021.01.03-09.46.59:832][718]AssetCheck: New page: Asset Save: BP_PlayerPawn
 [2021.01.03-09.46.59:832][718]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-09.59.49:073][775]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-10.18.08:267][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-10.18.08:590][733]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn3434177A4842E5CA0805759DBCDB2DC6.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-10.18.08:655][733]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-10.18.08:655][733]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-10.18.14:331][907]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-10.18.14:346][907]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.03-10.18.14:347][907]LogPlayLevel: [PlayLevel] Compiling BP_PlayerPawn before play...
+[2021.01.03-10.18.14:571][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.01.03-10.18.14:572][907]LogPlayLevel: PlayLevel: Blueprint regeneration took 226 ms (1 blueprints)
+[2021.01.03-10.18.14:572][907]PIE: New page: PIE session: MainLevel (3 sty 2021, 12:18:14)
+[2021.01.03-10.18.14:572][907]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-10.18.14:741][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.168824s)
+[2021.01.03-10.18.14:743][907]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-10.18.14:744][907]LogPlayLevel: PIE: World Init took: (0.002791s)
+[2021.01.03-10.18.14:744][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.171933s)
+[2021.01.03-10.18.14:804][907]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.01.03-10.18.14:804][907]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-10.18.14:804][907]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-10.18.14:804][907]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-10.18.14:805][907]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-10.18.14:805][907]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-10.18.14:805][907]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-10.18.14:805][907]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-10.18.14:805][907]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-10.18.14:805][907]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-10.18.14:805][907]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: Channel Order:
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-10.18.14:830][907]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-10.18.14:842][907]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-10.18.14:843][907]LogInit: FAudioDevice initialized.
+[2021.01.03-10.18.14:851][907]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-10.18.14:854][907]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-11.18.14
+[2021.01.03-10.18.14:854][907]LogWorld: Bringing up level for play took: 0.001353
+[2021.01.03-10.18.14:854][907]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.01.03-10.18.14:856][907]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel -0,387
+[2021.01.03-10.18.19:610][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-10.18.19:617][191]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.01.03-10.18.19:637][191]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.01.03-10.18.19:637][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-10.18.19:637][191]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-10.18.19:637][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-10.18.19:638][191]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-10.18.19:638][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-10.18.19:644][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-10.18.19:649][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-10.18.19:683][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-10.18.19:689][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-10.18.19:693][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.01.03-10.18.19:725][193]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.01.03-10.18.20:494][239]Cmd: SELECT NONE
+[2021.01.03-10.19.44:544][ 97]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-10.19.44:568][ 97]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-10.19.44:569][ 97]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-10.19.44:569][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-10.20.02:345][142]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2021.01.03-10.20.06:123][349]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.03-10.20.11:987][689]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-10.21.29:987][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-10.21.30:199][636]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn876B88264197619ACAA8CEA15A1FCE79.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-10.21.30:225][636]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-10.21.30:225][636]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-10.21.31:171][690]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-10.21.31:181][690]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-10.21.31:183][690]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-10.21.31:183][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-10.21.40:118][ 47]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.01.03-10.21.40:530][ 47]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2021.01.03-10.21.40:582][ 47]LogSlate: Warning: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.01.03-10.21.42:716][156]LogSlate: Window 'CompilerResults' being destroyed
+[2021.01.03-10.21.42:720][156]LogSlate: Window 'CompilerResults' being destroyed
+[2021.01.03-10.21.50:819][297]LogSlate: Window 'BP_GameMode' being destroyed
+[2021.01.03-10.21.50:839][297]LogSlate: Window 'BP_GameMode' being destroyed
+[2021.01.03-10.21.50:852][297]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-10.21.50:852][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-10.21.51:830][347]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-10.22.51:271][684]LogHttp: Warning: 0000025401107240: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B71BBF8C5-4053-6E2C-07AB-FABB3D862C29%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=0680efb64b9f36808a5c1ab15ac9359c%7C354aa40b9b1d4de49e7665ae433ba0fd%7C0c88a31a-e136-40b7-86c4-c87aa0f9bb5e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.03-10.22.51:271][684]LogHttp: Warning: 0000025401107240: request failed, libcurl error: 0 (No error)
+[2021.01.03-10.22.51:273][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2532c5f7f70 [can pipeline])
+[2021.01.03-10.22.51:273][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 1 (Re-using existing connection! (#33) with host datarouter.ol.epicgames.com)
+[2021.01.03-10.22.51:273][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (23.22.237.26) port 443 (#33))
+[2021.01.03-10.22.51:273][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.03-10.22.51:274][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.01.03-10.22.51:274][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.03-10.22.51:274][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.03-10.22.51:274][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 7 (Closing connection 33)
+[2021.01.03-10.22.51:275][684]LogHttp: Warning: 0000025401107240: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.03-10.22.51:602][685]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B71BBF8C5-4053-6E2C-07AB-FABB3D862C29%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=0680efb64b9f36808a5c1ab15ac9359c%7C354aa40b9b1d4de49e7665ae433ba0fd%7C0c88a31a-e136-40b7-86c4-c87aa0f9bb5e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.01.03-10.26.58:436][691]LogHoudiniEngine: Error: Hapi failed: 
+[2021.01.03-10.28.10:407][700]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.28.10:435][700]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.29.52:759][313]LogHoudiniEngine: Error: Hapi failed: 
+[2021.01.03-10.36.21:785][208]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.36.21:813][208]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.37.08:643][593]LogHoudiniEngine: Error: Hapi failed: 
+[2021.01.03-10.40.02:814][960]Cmd: TRANSACTION UNDO
+[2021.01.03-10.40.02:814][960]LogEditorTransaction: Undo Remove Axis Mapping Group
+[2021.01.03-10.40.03:107][966]Cmd: TRANSACTION UNDO
+[2021.01.03-10.40.03:107][966]LogEditorTransaction: Undo Remove Axis Mapping Group
+[2021.01.03-10.40.03:273][969]Cmd: TRANSACTION UNDO
+[2021.01.03-10.40.03:273][969]LogEditorTransaction: Undo Remove Axis Mapping Group
+[2021.01.03-10.40.03:477][975]Cmd: TRANSACTION UNDO
+[2021.01.03-10.40.03:477][975]LogEditorTransaction: Undo Change Key Value
+[2021.01.03-10.40.06:259][111]Cmd: TRANSACTION REDO
+[2021.01.03-10.40.06:259][111]LogEditorTransaction: Redo Change Key Value
+[2021.01.03-10.40.09:241][257]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.40.09:267][257]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.40.53:676][281]LogHoudiniEngine: Error: Hapi failed: 
+[2021.01.03-10.42.37:319][842]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.42.37:343][842]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.03-10.42.38:818][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-10.42.38:895][920]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawnFEA686F7410AF0777B973C99F91A9E8A.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-10.42.38:911][920]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-10.42.38:911][920]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-10.43.31:400][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2021.01.03-10.43.31:403][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.074
+[2021.01.03-10.43.31:403][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_PlayerPawn] ([1] browsable assets)...
+[2021.01.03-10.43.31:416][ 17]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn]
+[2021.01.03-10.43.31:416][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerPawn]
+[2021.01.03-10.43.31:454][ 17]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn_Auto3520B553E46ABCA519CE092B6F8D3A693.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/BP_PlayerPawn_Auto3.uasset'
+[2021.01.03-10.43.31:456][ 17]LogFileHelpers: Auto-saving content packages took 0.052
+[2021.01.03-10.51.26:928][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-10.51.29:337][575]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn0D60A5814A1A52357D2E318D7E0CD6D1.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-10.51.29:425][575]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-10.51.29:425][575]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-10.51.30:730][653]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-10.51.30:738][653]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-10.51.30:755][653]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-10.51.30:755][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-10.51.32:512][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-10.51.34:518][749]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn309E25D94D665654A4CD24B01FA98287.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-10.51.34:556][749]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-10.51.34:556][749]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-11.00.58:871][738]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-11.07.50:151][865]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2021.01.03-11.07.50:155][865]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.082
+[2021.01.03-11.07.50:156][865]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_PlayerPawn] ([1] browsable assets)...
+[2021.01.03-11.07.50:174][865]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn]
+[2021.01.03-11.07.50:174][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerPawn]
+[2021.01.03-11.07.56:530][865]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn_Auto43D1D8FA941069069BDE30AAC94D3A285.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/BP_PlayerPawn_Auto4.uasset'
+[2021.01.03-11.07.56:531][865]LogFileHelpers: Auto-saving content packages took 6.376
+[2021.01.03-11.14.54:647][672]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UPrimitiveComponent::AddTorqueInRadians' [Nie można odnaleźć elementu.]
+[2021.01.03-11.18.00:150][ 88]LogEditorTransaction: Undo Move Node
+[2021.01.03-11.18.00:604][ 99]LogEditorTransaction: Undo Create Pin Link
+[2021.01.03-11.18.01:496][147]LogEditorTransaction: Undo Move Node
+[2021.01.03-11.18.02:043][177]LogEditorTransaction: Undo Create Pin Link
+[2021.01.03-11.19.11:653][143]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2021.01.03-11.19.11:654][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.065
+[2021.01.03-11.19.11:655][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_PlayerPawn] ([1] browsable assets)...
+[2021.01.03-11.19.11:666][143]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn]
+[2021.01.03-11.19.11:666][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerPawn]
+[2021.01.03-11.19.11:728][143]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn_Auto545A514664B2F9356F4B32386CE933483.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/BP_PlayerPawn_Auto5.uasset'
+[2021.01.03-11.19.11:729][143]LogFileHelpers: Auto-saving content packages took 0.075
+[2021.01.03-11.19.37:224][577]LogEditorTransaction: Undo Create Pin Link
+[2021.01.03-11.23.14:853][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-11.23.15:804][746]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawnD7EC21264779E7A0555488BB64F8C4FA.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-11.23.15:863][746]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-11.23.15:863][746]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-11.29.28:227][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.01.03-11.29.28:234][923]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.055
+[2021.01.03-11.29.28:234][923]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_PlayerPawn] ([1] browsable assets)...
+[2021.01.03-11.29.28:247][923]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn]
+[2021.01.03-11.29.28:247][923]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerPawn]
+[2021.01.03-11.29.32:103][923]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn_Auto6E5FF4C2B49080CF931E153BB5183EE4A.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/BP_PlayerPawn_Auto6.uasset'
+[2021.01.03-11.29.32:109][923]LogFileHelpers: Auto-saving content packages took 3.875
+[2021.01.03-11.36.23:951][540]LogEditorTransaction: Undo Create Pin Link
+[2021.01.03-11.36.24:181][545]LogEditorTransaction: Undo Create Pin Link
+[2021.01.03-11.36.24:908][573]LogEditorTransaction: Undo Create Pin Link
+[2021.01.03-11.36.25:629][605]LogEditorTransaction: Undo Move Node
+[2021.01.03-11.36.26:684][662]LogEditorTransaction: Undo Paste clipboard contents
+[2021.01.03-11.37.07:032][557]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-11.37.07:047][557]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.03-11.37.07:048][557]LogPlayLevel: [PlayLevel] Compiling BP_PlayerPawn before play...
+[2021.01.03-11.37.07:711][557]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.01.03-11.37.07:716][557]LogPlayLevel: PlayLevel: Blueprint regeneration took 668 ms (1 blueprints)
+[2021.01.03-11.37.07:716][557]PIE: New page: PIE session: MainLevel (3 sty 2021, 13:37:07)
+[2021.01.03-11.37.07:716][557]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.08:516][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.800848s)
+[2021.01.03-11.37.08:519][557]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-11.37.08:520][557]LogPlayLevel: PIE: World Init took: (0.003060s)
+[2021.01.03-11.37.08:520][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.804288s)
+[2021.01.03-11.37.08:592][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-11.37.08:593][557]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-11.37.08:593][557]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-11.37.08:593][557]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: Channel Order:
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-11.37.08:617][557]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-11.37.08:629][557]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.08:631][557]LogInit: FAudioDevice initialized.
+[2021.01.03-11.37.08:638][557]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-11.37.08:640][557]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-12.37.08
+[2021.01.03-11.37.08:640][557]LogWorld: Bringing up level for play took: 0.001252
+[2021.01.03-11.37.08:640][557]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.03-11.37.08:693][557]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 1,449
+[2021.01.03-11.37.13:199][816]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.13:215][816]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.01.03-11.37.13:234][816]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.01.03-11.37.13:234][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.13:234][816]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.13:234][816]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.13:235][816]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.37.13:235][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.13:239][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-11.37.13:245][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.13:277][816]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.13:281][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.13:350][816]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.01.03-11.37.13:366][817]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.01.03-11.37.22:116][331]Cmd: DELETE
+[2021.01.03-11.37.22:117][331]Cmd: ACTOR DELETE
+[2021.01.03-11.37.22:121][331]LogEditorActor: Deleted Actor: Brush
+[2021.01.03-11.37.22:155][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.01.03-11.37.22:635][331]LogEditorActor: Deleted 1 Actors (0.519 secs)
+[2021.01.03-11.37.23:976][408]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.03-11.37.26:982][587]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.01.03-11.37.27:728][630]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-11.37.27:744][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.03-11.37.27:744][630]PIE: New page: PIE session: MainLevel (3 sty 2021, 13:37:27)
+[2021.01.03-11.37.27:744][630]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.27:756][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011774s)
+[2021.01.03-11.37.27:757][630]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-11.37.27:757][630]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2021.01.03-11.37.27:757][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.013136s)
+[2021.01.03-11.37.27:792][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.01.03-11.37.27:793][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-11.37.27:794][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-11.37.27:794][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-11.37.27:794][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-11.37.27:794][630]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-11.37.27:794][630]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-11.37.27:794][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-11.37.27:794][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-11.37.27:794][630]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-11.37.27:794][630]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: Channel Order:
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-11.37.27:810][630]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-11.37.27:819][630]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.27:821][630]LogInit: FAudioDevice initialized.
+[2021.01.03-11.37.27:826][630]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-11.37.27:828][630]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-12.37.27
+[2021.01.03-11.37.27:828][630]LogWorld: Bringing up level for play took: 0.001007
+[2021.01.03-11.37.27:828][630]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.01.03-11.37.27:831][630]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0,587
+[2021.01.03-11.37.29:791][744]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.29:791][744]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.29:792][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.29:792][744]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.29:792][744]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.29:792][744]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.37.29:792][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.29:797][744]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-11.37.29:801][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.29:834][744]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.29:838][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.29:841][744]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.01.03-11.37.29:905][748]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.01.03-11.37.35:745][ 97]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.03-11.37.37:423][194]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.01.03-11.37.38:008][228]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-11.37.38:024][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.03-11.37.38:024][228]PIE: New page: PIE session: MainLevel (3 sty 2021, 13:37:38)
+[2021.01.03-11.37.38:024][228]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.38:036][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011215s)
+[2021.01.03-11.37.38:037][228]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-11.37.38:037][228]LogPlayLevel: PIE: World Init took: (0.001340s)
+[2021.01.03-11.37.38:037][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.012758s)
+[2021.01.03-11.37.38:071][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-11.37.38:073][228]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-11.37.38:073][228]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-11.37.38:073][228]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: Channel Order:
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-11.37.38:087][228]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-11.37.38:096][228]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.38:098][228]LogInit: FAudioDevice initialized.
+[2021.01.03-11.37.38:110][228]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-11.37.38:111][228]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-12.37.38
+[2021.01.03-11.37.38:112][228]LogWorld: Bringing up level for play took: 0.001053
+[2021.01.03-11.37.38:112][228]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.01.03-11.37.38:114][228]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0,87
+[2021.01.03-11.37.41:356][422]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.41:356][422]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.41:357][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.41:357][422]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.41:357][422]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.41:357][422]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.37.41:357][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.41:364][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-11.37.41:371][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.41:405][422]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.41:409][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.41:413][422]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.01.03-11.37.41:461][425]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.01.03-11.37.48:391][833]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-11.37.48:406][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.03-11.37.48:406][833]PIE: New page: PIE session: MainLevel (3 sty 2021, 13:37:48)
+[2021.01.03-11.37.48:406][833]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.48:419][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012856s)
+[2021.01.03-11.37.48:420][833]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-11.37.48:421][833]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2021.01.03-11.37.48:421][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.014257s)
+[2021.01.03-11.37.48:456][833]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.01.03-11.37.48:457][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-11.37.48:457][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-11.37.48:457][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-11.37.48:457][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-11.37.48:457][833]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-11.37.48:457][833]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-11.37.48:457][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-11.37.48:457][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-11.37.48:458][833]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-11.37.48:458][833]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: Channel Order:
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-11.37.48:471][833]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-11.37.48:479][833]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-11.37.48:481][833]LogInit: FAudioDevice initialized.
+[2021.01.03-11.37.48:493][833]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-11.37.48:495][833]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-12.37.48
+[2021.01.03-11.37.48:495][833]LogWorld: Bringing up level for play took: 0.001035
+[2021.01.03-11.37.48:495][833]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.01.03-11.37.48:497][833]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel -0,746
+[2021.01.03-11.37.51:119][989]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.51:119][989]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.51:119][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.51:119][989]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.37.51:119][989]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.51:119][989]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.37.51:120][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.51:132][989]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-11.37.51:136][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.37.51:170][989]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.37.51:173][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.37.51:177][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.01.03-11.37.51:223][992]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.01.03-11.38.47:713][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-11.38.48:178][189]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn69E1711D43BD54B70A9DE4866D323E8E.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-11.38.48:235][189]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-11.38.48:235][189]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-11.38.49:283][241]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-11.38.49:302][241]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.03-11.38.49:304][241]LogPlayLevel: [PlayLevel] Compiling BP_PlayerPawn before play...
+[2021.01.03-11.38.49:586][241]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.01.03-11.38.49:591][241]LogPlayLevel: PlayLevel: Blueprint regeneration took 289 ms (1 blueprints)
+[2021.01.03-11.38.49:591][241]PIE: New page: PIE session: MainLevel (3 sty 2021, 13:38:49)
+[2021.01.03-11.38.49:591][241]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.38.49:605][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013438s)
+[2021.01.03-11.38.49:606][241]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-11.38.49:606][241]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2021.01.03-11.38.49:606][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.014646s)
+[2021.01.03-11.38.49:641][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-11.38.49:642][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-11.38.49:642][241]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-11.38.49:642][241]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: Channel Order:
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-11.38.49:656][241]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-11.38.49:664][241]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-11.38.49:666][241]LogInit: FAudioDevice initialized.
+[2021.01.03-11.38.49:676][241]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-11.38.49:677][241]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-12.38.49
+[2021.01.03-11.38.49:677][241]LogWorld: Bringing up level for play took: 0.001124
+[2021.01.03-11.38.49:678][241]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.01.03-11.38.49:680][241]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0,436
+[2021.01.03-11.38.59:764][834]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.38.59:778][834]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.01.03-11.38.59:798][834]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.01.03-11.38.59:798][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.38.59:798][834]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.38.59:798][834]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.38.59:798][834]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.38.59:799][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.38.59:807][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-11.38.59:811][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.38.59:847][834]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.38.59:851][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.38.59:855][834]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.01.03-11.38.59:875][835]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.01.03-11.39.05:322][160]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-11.39.05:336][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.03-11.39.05:336][160]PIE: New page: PIE session: MainLevel (3 sty 2021, 13:39:05)
+[2021.01.03-11.39.05:336][160]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.39.05:349][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012240s)
+[2021.01.03-11.39.05:349][160]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-11.39.05:349][160]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2021.01.03-11.39.05:349][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.013497s)
+[2021.01.03-11.39.05:384][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-11.39.05:385][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-11.39.05:385][160]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-11.39.05:385][160]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-11.39.05:399][160]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-11.39.05:399][160]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-11.39.05:399][160]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-11.39.05:399][160]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-11.39.05:399][160]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-11.39.05:399][160]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-11.39.05:399][160]LogAudioMixer: Display: Channel Order:
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-11.39.05:400][160]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-11.39.05:408][160]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-11.39.05:410][160]LogInit: FAudioDevice initialized.
+[2021.01.03-11.39.05:418][160]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-11.39.05:420][160]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-12.39.05
+[2021.01.03-11.39.05:420][160]LogWorld: Bringing up level for play took: 0.001254
+[2021.01.03-11.39.05:420][160]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.01.03-11.39.05:423][160]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0,179
+[2021.01.03-11.39.10:919][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.39.10:919][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.39.10:919][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.39.10:919][489]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.39.10:919][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.39.10:919][489]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.39.10:920][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.39.10:930][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-11.39.10:933][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.39.10:969][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.39.10:972][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.39.10:976][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.01.03-11.39.11:024][492]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.01.03-11.39.41:948][272]LogEditorTransaction: Undo Modify Component(s)
+[2021.01.03-11.39.42:512][284]Cmd: TRANSACTION UNDO
+[2021.01.03-11.39.42:514][284]LogEditorTransaction: Undo Set Location
+[2021.01.03-11.39.45:157][429]Cmd: TRANSACTION REDO
+[2021.01.03-11.39.45:157][429]LogEditorTransaction: Redo Set Location
+[2021.01.03-11.39.51:795][804]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.03-11.40.02:621][438]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.01.03-11.40.03:807][508]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.03-11.40.03:822][508]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.03-11.40.03:823][508]LogPlayLevel: [PlayLevel] Compiling BP_PlayerPawn before play...
+[2021.01.03-11.40.04:076][508]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.01.03-11.40.04:080][508]LogPlayLevel: PlayLevel: Blueprint regeneration took 257 ms (1 blueprints)
+[2021.01.03-11.40.04:080][508]PIE: New page: PIE session: MainLevel (3 sty 2021, 13:40:04)
+[2021.01.03-11.40.04:080][508]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.40.04:093][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012515s)
+[2021.01.03-11.40.04:094][508]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.03-11.40.04:094][508]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2021.01.03-11.40.04:094][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.013819s)
+[2021.01.03-11.40.04:130][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.01.03-11.40.04:131][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.03-11.40.04:131][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.03-11.40.04:131][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.03-11.40.04:131][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.03-11.40.04:131][508]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.03-11.40.04:131][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.03-11.40.04:131][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.03-11.40.04:131][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.03-11.40.04:132][508]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.03-11.40.04:132][508]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: Name: Głośniki (USB PnP Sound Device)
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: Is Default: Yes
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: Channel Count Used: 8
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: Device Channel Count: 8
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: Channel Order:
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 1: FrontRight
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 4: BackLeft
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 5: BackRight
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 6: SideLeft
+[2021.01.03-11.40.04:146][508]LogAudioMixer: Display: 7: SideRight
+[2021.01.03-11.40.04:155][508]LogAudioMixer: Display: Using Audio Device Głośniki (USB PnP Sound Device)
+[2021.01.03-11.40.04:157][508]LogInit: FAudioDevice initialized.
+[2021.01.03-11.40.04:162][508]LogLoad: Game class is 'BP_GameMode_C'
+[2021.01.03-11.40.04:164][508]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2021.01.03-12.40.04
+[2021.01.03-11.40.04:166][508]LogWorld: Bringing up level for play took: 0.001291
+[2021.01.03-11.40.04:166][508]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.01.03-11.40.04:168][508]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0,924
+[2021.01.03-11.40.12:926][ 31]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.40.12:944][ 31]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.01.03-11.40.12:973][ 31]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.01.03-11.40.12:973][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.40.12:973][ 31]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.01.03-11.40.12:973][ 31]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.40.12:973][ 31]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.40.12:974][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.40.12:982][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.03-11.40.12:987][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.40.13:023][ 31]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.03-11.40.13:026][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.03-11.40.13:030][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.01.03-11.40.13:053][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.01.03-11.40.15:602][184]Cmd: TRANSACTION UNDO
+[2021.01.03-11.40.15:602][184]LogEditorTransaction: Undo Rotate Actors
+[2021.01.03-11.40.17:222][261]Cmd: TRANSACTION UNDO
+[2021.01.03-11.40.17:222][261]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.03-11.40.23:938][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.03-11.40.23:976][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.01.03-11.40.24:489][658]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/MainLevel5BF4457C4F259D873A42F39EB9B3276B.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel.umap'
+[2021.01.03-11.40.24:514][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel_BuiltData" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel_BuiltData.uasset" SILENT=true
+[2021.01.03-11.40.25:086][658]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/MainLevel_BuiltData07EBC91E4A304B55310F85B825EC0003.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel_BuiltData.uasset'
+[2021.01.03-11.40.25:120][658]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.03-11.40.25:120][658]LogContentValidation: Display: Validating World /Game/Levels/MainLevel.MainLevel
+[2021.01.03-11.40.25:121][658]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.01.03-11.44.12:845][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.03-11.44.13:140][111]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_PlayerPawn783298314DA112C4727E1394169C3360.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.03-11.44.13:163][111]AssetCheck: New page: Asset Save: BP_PlayerPawn
+[2021.01.03-11.44.13:164][111]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.03-11.44.15:448][244]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-11.44.15:460][244]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.03-11.44.15:603][244]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.01.03-11.44.15:603][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.03-11.44.18:608][386]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.01.03-11.44.22:876][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.01.03-11.44.23:286][640]LogSlate: Window 'BallRunner - Unreal Editor' being destroyed
+[2021.01.03-11.44.23:312][640]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.03-11.44.24:208][641]Cmd: QUIT_EDITOR
+[2021.01.03-11.44.24:232][641]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.01.03-11.44.24:521][641]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.01.03-11.44.24:580][641]LogAudioMixer: Display: No commands were queued while flushing the source manager.
