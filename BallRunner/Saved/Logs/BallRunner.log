@@ -1975,3 +1975,85 @@ Please see Output Log for details.
 [2021.05.09-18.00.35:377][367]LogSlate: Window 'BP_Gun' being destroyed
 [2021.05.09-18.00.35:423][367]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
 [2021.05.09-18.00.35:423][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-18.18.13:555][144]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.19.22:789][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.05.09-18.19.22:812][185]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MainLevel' took 0.069
+[2021.05.09-18.19.22:812][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Gun] ([1] browsable assets)...
+[2021.05.09-18.19.22:837][185]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Gun.BP_Gun]
+[2021.05.09-18.19.22:837][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Gun]
+[2021.05.09-18.19.22:837][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/BP_Gun_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2021.05.09-18.19.23:421][185]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_Gun_Auto5F37642894E954D92A33F2A97E3074BD2.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/BP_Gun_Auto5.uasset'
+[2021.05.09-18.19.23:422][185]LogFileHelpers: Auto-saving content packages took 0.611
+[2021.05.09-18.20.31:124][825]BlueprintLog: New page: Compile BP_Gun
+[2021.05.09-18.20.31:178][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.05.09-18.20.31:682][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset" SILENT=true
+[2021.05.09-18.20.31:942][849]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_Gun92C1BEAF435368CFCCF2F08B340D2832.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset'
+[2021.05.09-18.20.31:962][849]AssetCheck: New page: Asset Save: BP_Gun
+[2021.05.09-18.20.31:962][849]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.22.08:825][106]LogEditorTransaction: Undo Edit Projectile Scale
+[2021.05.09-18.22.09:110][112]LogEditorTransaction: Undo Clicking on Actors
+[2021.05.09-18.22.16:403][509]BlueprintLog: New page: Compile BP_Gun
+[2021.05.09-18.22.16:458][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.05.09-18.22.16:984][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset" SILENT=true
+[2021.05.09-18.22.17:060][532]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_Gun0992D3204D8AED70DA3E15BD1FA8EB64.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset'
+[2021.05.09-18.22.17:082][532]AssetCheck: New page: Asset Save: BP_Gun
+[2021.05.09-18.22.17:082][532]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.22.32:591][432]Cmd: DELETE
+[2021.05.09-18.22.32:591][432]Cmd: ACTOR DELETE
+[2021.05.09-18.22.32:595][432]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.05.09-18.22.32:623][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.05.09-18.22.32:625][432]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2021.05.09-18.22.33:273][470]Cmd: DELETE
+[2021.05.09-18.22.33:273][470]Cmd: ACTOR DELETE
+[2021.05.09-18.22.33:277][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.05.09-18.22.33:304][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.05.09-18.22.33:304][470]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2021.05.09-18.23.02:967][972]BlueprintLog: New page: Compile BP_Gun
+[2021.05.09-18.23.03:059][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.05.09-18.23.03:492][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset" SILENT=true
+[2021.05.09-18.23.03:549][990]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_GunEC2CF5D64B313F836CA6269A241B1FDD.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset'
+[2021.05.09-18.23.03:569][990]AssetCheck: New page: Asset Save: BP_Gun
+[2021.05.09-18.23.03:570][990]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.23.04:505][ 27]LogSlate: Window 'BP_Gun' being destroyed
+[2021.05.09-18.23.04:516][ 27]LogSlate: Window 'BP_Gun' being destroyed
+[2021.05.09-18.23.04:554][ 27]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-18.23.04:554][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-18.23.48:009][731]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.24.20:019][279]BlueprintLog: New page: Compile BP_Gun
+[2021.05.09-18.24.20:093][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.05.09-18.24.20:589][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset" SILENT=true
+[2021.05.09-18.24.20:654][299]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_Gun8FDD8AE541FC185AB51467978D68949F.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset'
+[2021.05.09-18.24.20:674][299]AssetCheck: New page: Asset Save: BP_Gun
+[2021.05.09-18.24.20:675][299]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.25.06:182][684]BlueprintLog: New page: Compile BP_Gun
+[2021.05.09-18.25.06:258][684]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.05.09-18.25.06:880][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset" SILENT=true
+[2021.05.09-18.25.06:936][711]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_Gun3D58E388402AC431067DDC971E49910B.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset'
+[2021.05.09-18.25.06:956][711]AssetCheck: New page: Asset Save: BP_Gun
+[2021.05.09-18.25.06:956][711]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.25.39:648][332]BlueprintLog: New page: Compile BP_Gun
+[2021.05.09-18.25.39:714][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.05.09-18.25.40:486][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset" SILENT=true
+[2021.05.09-18.25.40:544][364]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_Gun035C2E144038D14E6AE1068BDBBCAE30.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset'
+[2021.05.09-18.25.40:562][364]AssetCheck: New page: Asset Save: BP_Gun
+[2021.05.09-18.25.40:562][364]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.29.24:091][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.05.09-18.29.24:746][922]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/MainLevel_Auto65BB85C2C4EA4D368D1FE29AB4AB9CDEF.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/MainLevel_Auto6.umap'
+[2021.05.09-18.29.24:762][922]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MainLevel' took 0.708
+[2021.05.09-18.29.24:762][922]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.708
+[2021.05.09-18.32.43:360][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Gun" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset" SILENT=true
+[2021.05.09-18.32.44:529][561]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/BP_Gun2A1508B240345E439A4C98A35B717DA9.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Blueprints/BP_Gun.uasset'
+[2021.05.09-18.32.44:571][561]AssetCheck: New page: Asset Save: BP_Gun
+[2021.05.09-18.32.44:571][561]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Gun.BP_Gun
+[2021.05.09-18.32.45:888][612]LogSlate: Window 'BP_Gun' being destroyed
+[2021.05.09-18.32.45:897][612]LogSlate: Window 'BP_Gun' being destroyed
+[2021.05.09-18.32.45:903][612]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-18.32.45:903][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-18.32.49:142][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.09-18.32.49:170][718]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.05.09-18.32.50:021][718]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/MainLevel109421BA4CB2080AA0EE20AA543A21D2.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel.umap'
+[2021.05.09-18.32.50:563][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel_BuiltData" FILE="../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel_BuiltData.uasset" SILENT=true
+[2021.05.09-18.32.50:978][718]LogSavePackage: Moving '../../../../../Programming/PZP/BallRunner/BallRunner/Saved/MainLevel_BuiltData123B579248462E58F35D22BE5B314EA5.tmp' to '../../../../../Programming/PZP/BallRunner/BallRunner/Content/Levels/MainLevel_BuiltData.uasset'
+[2021.05.09-18.32.50:998][718]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.09-18.32.50:998][718]LogContentValidation: Display: Validating World /Game/Levels/MainLevel.MainLevel
+[2021.05.09-18.32.50:998][718]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData
